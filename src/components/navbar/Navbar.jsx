@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./navbar.css"
 import logo from "../../assets/logo.svg"
 
 const Navbar = () => {
+
+  const [toggleMenu, setToggleMenu] = useState(false)
   return (
     <div className='gpt3__navbar'>
       <div className='gpt3__navbar-links'>
@@ -19,6 +21,11 @@ const Navbar = () => {
         <div className='gpt3__navbar-sign'>
         <p>Sign In</p>
         <button type='button'>Sign Up</button>
+      </div>
+      <div className='gpt3__navbar-menu'>
+{toggleMenu? <RiCloseLine color ="#fff" size ={27} onClick={()=> setToggleMenu(false) } />:
+<RiMenuLine color ="#fff" size ={27} onClick={()=> setToggleMenu(true) } />}
+
       </div>
       </div>
      
