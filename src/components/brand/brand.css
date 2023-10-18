@@ -5,3 +5,13 @@
     justify-content: center;
     align-items: center;
 }
+
+.gpt3__brand div{
+    flex: 1;
+    max-width: 150px;
+    min-width: 120px;
+    margin: 1rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
