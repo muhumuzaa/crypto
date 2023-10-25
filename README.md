@@ -1,5 +1,6 @@
-# Getting Started with Create React App
+# A Crypto website created with React
 
+![about](https://github.com/muhumuzaa/ugcrypto-react-web/assets/142443950/8393a7ed-c85e-47aa-8bf0-049ea7628459)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
